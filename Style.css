@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.container {
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    background-color: #cbd7ff00;
+}
+nav {
+    width: 100%;
+    /* height: 15%; */
+    background-color: #68ffae00;
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 10vmax;
+    padding-right: 10vmax; */
+    padding: 0 2%;
+    align-items: center;
+    position: fixed;
+    /* top: 3%; */
+}
+/* nav > img {
+    height: 18%;
+} */
+.logo {
+    width: 15%;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav > ul > li {
+    font-size: 1vmax;
+    margin: 0 1.65vmax;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+nav > ul > li:hover {
+    /* background-color: yellow; */
+    color: #0623dd;
+    cursor: pointer;
+  }
+.nav-button {
+    background-color: 4760ff;
+    padding: 1vmax 3vmax;
+    font-size: 1.4vmax;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+}
+.box {
+    margin-top: 1.5%;
+    height: 100%;
+    width: 100%;
+    /* padding: 0 3%; */
+    align-items: center;
+    display: flex;
+}
+.left {
+    width: 65%;
+    padding: 0 3%;
+}
+.left > h1 {
+    color: #001220;
+    font-family: gilroy;
+    text-transform: capitalize;
+    font-size: 4vmax;
+    font-weight: 500;
+    /* padding-bottom: -20px; */
+    /* line-height: 5 px; */
+    /* letter-spacing: 0.1vmax; */
+}
+.left > h1 > span {
+    color: #384fe7;
+    margin-top: -2%;
+    font-size: 5vmax;
+    font-weight: 900;
+}
+.left > h1 > span:hover {
+    /* background-color: yellow; */
+    color: #0623dd;
+    cursor: pointer;
+  }
+.left > ul {
+    margin-left: 1.6vmax;
+    margin-top: 1vmax;
+    margin-bottom: 1.6vmax;
+    font-size: 1.5vmax;
+}
+.left > ul > li {
+    color: #001220;
+    font-size: 1.35vmax;
+    font-weight: 400;
+    line-height: 5 px;
+}
+.left > p {
+    color: rgb(0, 0, 0);
+    font-size: 2.78vmax;
+    font-weight: 500;
+}
+.left > button {
+    background-color: #384fe7;
+    padding: 1.2vmax;
+    font-family: gilroy;
+    font-size: 1.3vmax;
+    font-weight: 500;
+    border-radius: 3.8%;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+.left > button:hover {
+    background-color: rgb(5, 49, 170);
+    /* color: #dd1f06; */
+    cursor: pointer;
+  }
+
+.Right {
+    width: 35%;
+    height: 100%;
+}
